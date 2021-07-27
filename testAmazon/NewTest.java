@@ -18,7 +18,5 @@ public class NewTest {
   System.out.println("Hi, welcome to edureka's Youtube live session on selenium webdriver");
   driver.navigate().to("https:/www.amazon.in");
   driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-  
   driver.findElement(By.id("twotabsearchtextbox")).sendkeys("nike shoues");
-  
 }
